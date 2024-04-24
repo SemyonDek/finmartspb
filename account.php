@@ -48,7 +48,6 @@ require_once('config/orders.php');
 
                     <div class="account-info-main-block">
                         <div id="order-block" class="account-info-item info-block-active">
-                            <!-- <div class="orders-list-clear">У вас нет заказов</div> -->
                             <table id="ordersTable">
                                 <thead>
                                     <tr>

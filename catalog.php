@@ -142,25 +142,6 @@ if (isset($catName)) $catName = $catName['NAME'];
                     addProdListUser($products);
                     ?>
 
-                    <!-- <div class="product-item">
-                        <div class="product-item-block">
-
-                            <div class="product-item-img-block">
-                                <a href="product-card.php"><img src="img/product/70_Moller_kalanmaksaoljy_500ml_2020-08-26_15-04-46.jpg" alt=""></a>
-                            </div>
-
-                            <div class="product-item-name-block">
-                                <a href="product-card.php">BODYFLEX Glucosamin Vahva 800 mg (Бодифлекс глюкозамин усиленный) , 140 шт.</a>
-                            </div>
-
-                            <div class="product-item-buy-block">
-                                <div class="product-item-price-block">1890 руб.</div>
-                                <div class="product-item-buy-bottom"><img src="img/main/basket-add-icon.png" alt=""></div>
-                            </div>
-
-                        </div>
-                    </div> -->
-
                 </div>
 
             </div>

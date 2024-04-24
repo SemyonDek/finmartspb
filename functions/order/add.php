@@ -27,9 +27,6 @@ $amountFull = $_SESSION['finalbasketSum'];
 
 $status = 0;
 
-
-
-
 mysqli_query($ConnectDatabase, "INSERT INTO `orders` 
 (`ID`, `USERID`, `DATE`, `ADDRESS`, `DELIVERYID`, `DELIVERYNAME`, `DELIVERYPRICE`, 
 `AMOUNT`, `AMOUNTFULL`, `EMAIL`, `NUMBER`, `USERNAME`, `COMM`, `STATUS`) VALUES 

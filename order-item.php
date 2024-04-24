@@ -13,9 +13,6 @@ if (isset($deliveryitem)) {
 } else {
     $deliveryName = $order['DELIVERYNAME'];
 }
-
-// print_r($orderItems);
-// print_r($products);
 ?>
 
 <!DOCTYPE html>
