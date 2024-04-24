@@ -1,0 +1,116 @@
+.basket-title {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 2.625rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.product-add-main-block {
+    width: 100%;
+}
+
+.input-line {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.name-input {
+    width: 200px;
+    margin-right: 20px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.input-text {
+    box-sizing: content-box;
+    min-width: 50%;
+    width: 50%;
+    max-width: 50%;
+    min-height: 40px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    outline: none;
+    color: #666;
+    font-size: 16px;
+}
+
+.input-file {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    box-sizing: content-box;
+    min-width: 50%;
+    width: 50%;
+    max-width: 50%;
+    min-height: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    outline: none;
+    color: #666;
+    font-size: 16px;
+}
+
+.input-file::file-selector-button {
+    color: #fff;
+    background: #20488a;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.input-textarea {
+    box-sizing: content-box;
+    min-width: 50%;
+    width: 50%;
+    max-width: 50%;
+    min-height: 150px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    outline: none;
+    color: #666;
+    font-size: 16px;
+}
+
+.input-button {
+    color: #fff;
+    background: #20488a;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.photo-block {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #f2f2f2;
+}
+
+.photo-block img {
+    max-width: 90%;
+}

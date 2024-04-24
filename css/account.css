@@ -1,0 +1,187 @@
+.basket-title {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 2.625rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.tabs-list-block {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.tab-item {
+    padding: 5px 10px 6px;
+    margin-right: 20px;
+    color: #666;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: -1.5px;
+    cursor: pointer;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tab-item-active {
+    color: #000;
+    border-bottom: 2px solid #157ed2;
+}
+
+.line-logout {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.logout-button {
+    color: #fff;
+    background: #20488a;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.account-info-main-block {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.account-info-item {
+    display: none;
+}
+
+.info-block-active {
+    display: block;
+}
+
+.orders-list-clear {
+    color: red;
+}
+
+#ordersTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#ordersTable tr {
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    border-top: 2px solid #f2f2f2;
+}
+
+#ordersTable thead tr {
+    padding: 10px 0;
+    border-top: none;
+    font-weight: 600;
+}
+
+#ordersTable tbody tr:last-child {
+    border-bottom: 2px solid #f2f2f2;
+}
+
+#ordersTable td {
+    display: table-cell;
+    padding: 1px;
+}
+
+.td-number {
+    width: 40px;
+}
+
+.td-date {
+    width: 150px;
+}
+
+.td-address {
+    width: 300px;
+}
+
+.td-delivery {
+    width: 210px;
+}
+
+.td-amount {
+    width: 100px;
+}
+
+tbody .td-amount {
+    text-align: center;
+}
+
+.td-info {
+    width: 110px;
+}
+
+tbody .td-info {
+    text-align: center;
+}
+
+.td-info a {
+    width: 100%;
+    text-decoration: none;
+    color: #157ed2;
+}
+
+.td-status {
+    width: 130px;
+}
+
+tbody .td-status {
+    text-align: center;
+}
+
+.info-input-block {
+    width: 50%;
+    margin: 20px 0;
+}
+
+.account-input {
+    box-sizing: content-box;
+    min-width: 90%;
+    width: 90%;
+    max-width: 90%;
+    min-height: 40px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    outline: none;
+    color: #666;
+    font-size: 16px;
+}
+
+.account-button {
+    color: #fff;
+    background: #20488a;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}

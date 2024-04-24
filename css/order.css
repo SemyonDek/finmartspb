@@ -1,0 +1,160 @@
+.basket-title {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 2.625rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.order-main-block {
+    width: 100%;
+}
+
+#orderForm {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.order-item-block {
+    width: 45%;
+    background: #ffffff;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.order-item-title-line {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.order-item-number-block {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    padding-top: 1.5px;
+    padding-right: 1px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #20488a;
+    color: #fff;
+
+}
+
+.order-item-title-name {
+    color: #000;
+    line-height: 24px;
+}
+
+.order-item-input-block {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.order-input {
+    box-sizing: content-box;
+    min-width: 90%;
+    width: 90%;
+    max-width: 90%;
+    min-height: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    outline: none;
+    color: #666;
+    font-size: 16px;
+}
+
+.order-item-input-block label {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+
+.radio-delivery {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    min-width: 20px;
+    min-height: 20px;
+    width: 20px;
+    height: 20px;
+    margin: 3px 15px 0 5px;
+    border: 2px solid #f2f2f2;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.radio-delivery:checked {
+    background-color: #000;
+}
+
+.name-delivery {
+    color: #666666;
+    font-size: 16px;
+}
+
+.price-delivery {
+    padding-left: 10px;
+    color: #20488a;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bottom-order-block {
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.name-button-order {
+    width: 100%;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.amount-order {
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #20488a;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.amount-delivery {
+    color: #000;
+    font-size: 16px;
+}
+
+.order-button {
+    color: #fff;
+    background: #20488a;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background: #157ed2;
+}

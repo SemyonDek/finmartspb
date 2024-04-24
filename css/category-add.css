@@ -1,0 +1,127 @@
+.basket-title {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 2.625rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.category-add-main-block {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.add-category-block {
+    width: 45%;
+    margin-bottom: 20px;
+    margin-right: 5%;
+}
+
+.upd-category-block {
+    width: 50%;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    border-left: 2px solid #f2f2f2;
+}
+
+.add-category-title {
+    width: 100%;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 1.625rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.input-text {
+    box-sizing: content-box;
+    min-width: 90%;
+    width: 90%;
+    max-width: 90%;
+    min-height: 40px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    outline: none;
+    color: #666;
+    font-size: 16px;
+}
+
+.input-button {
+    color: #fff;
+    background: #20488a;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.category-add-list-block {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.category-add-list-block .add-category-title {
+    text-align: center;
+}
+
+.category-add-list {
+    margin-top: 20px;
+    padding: 0 150px;
+}
+
+.category-add-lis-item {
+    min-width: 400px;
+    margin-bottom: 10px;
+    padding-bottom: 32px;
+    border-bottom: 2px solid #f2f2f2;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.upd-cat {
+    font-size: 16px;
+    color: orange;
+    float: right;
+    margin-left: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.del-cat {
+    font-size: 16px;
+    color: red;
+    float: right;
+    cursor: pointer;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.price-delivery {
+    padding-left: 10px;
+    color: #20488a;
+    font-size: 18px;
+    font-weight: 600;
+}
